@@ -1,0 +1,14 @@
+.card-list__div {
+    display: flex;
+    flex-direction: row; /* Расположить карточки в ряд */
+    flex-wrap: wrap; /* Позволяет переносить карточки на следующую строку */
+    text-align: center;
+    /*justify-content: center;  Центрирование карточек по горизонтали */
+    align-items: center; /* Центрирование карточек по вертикали */
+    justify-items: center;
+    margin: 30px auto 0;
+    padding: 10px 0 10px 80px;
+    gap: 20px;
+    /*justify-content: space-between; /* Равномерное распределение карточек */
+}
+
