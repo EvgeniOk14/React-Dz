@@ -1,10 +1,9 @@
 import "./Card.css";
-import {products} from "./products.js";
 
 // функция Card - карточка, передаём данные
 export const Card = ({ imageSrc, title, price, discount }) => {
 
-    /* водим параметр скидки discountPrice и расчитываем его: */
+    /* вводим параметр скидки discountPrice и рассчитываем его: */
     const discountPrice = discount ? (price - (price * discount)).toFixed(2) : null;
     return (
 
