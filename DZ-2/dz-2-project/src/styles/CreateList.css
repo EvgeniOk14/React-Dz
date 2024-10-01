@@ -1,0 +1,30 @@
+.div-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    width: 500px;
+}
+
+.div-container__list-item {
+    color: darkgreen;
+    min-width: 200px; /* Минимальная ширина для элементов */
+    width: 100%; /* Занимает доступное пространство */
+}
+
+.div-container__input-input {
+    width: 500px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.div-container__button {
+    background-color: #535bf2;
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+    min-width: 200px; /* Минимальная ширина для элементов */
+    width: 100%; /* Занимает доступное пространство */
+}
